@@ -75,7 +75,7 @@ h1 a:hover {
 .name p {
     font-size: 14px;
     font-weight: bold;
-   display: flex;
+    display: flex;
     align-items: center;
 }
 
@@ -87,5 +87,6 @@ footer {
  @media screen and (max-width: 375px) {
     .qrCode {
         margin-top: 40%;
+        width: 327px;
     }
 }
