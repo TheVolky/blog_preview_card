@@ -15,6 +15,7 @@ body {
     border: solid;
     border-width: 1px;
     box-shadow: 10px 10px;
+    transition: box-shadow 0.3s;
 }
 
 .imgMain {
@@ -57,6 +58,10 @@ h1 a:hover {
     color: hsl(47, 88%, 63%);
 }
 
+.card.hovered {
+    box-shadow: 15px 15px;
+}
+
 .text {
     color: hsl(0, 0%, 50%);
     line-height: 1.5;
@@ -85,7 +90,7 @@ footer {
 
  /* En dessous de 375 px */
  @media screen and (max-width: 375px) {
-    .qrCode {
+    .card {
         margin-top: 40%;
         width: 327px;
     }
