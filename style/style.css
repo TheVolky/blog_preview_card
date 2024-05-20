@@ -75,10 +75,17 @@ h1 a:hover {
 .name p {
     font-size: 14px;
     font-weight: bold;
-    display: flex;
+   display: flex;
     align-items: center;
 }
 
 footer {
     margin: 10px;
+}
+
+ /* En dessous de 375 px */
+ @media screen and (max-width: 375px) {
+    .qrCode {
+        margin-top: 40%;
+    }
 }
