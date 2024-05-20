@@ -94,7 +94,12 @@ footer {
  /* En dessous de 375 px */
  @media screen and (max-width: 375px) {
     .card {
-        margin-top: 40%;
+        margin-top: 30%;
         width: 327px;
+    }
+
+    .imgMain img{
+        border-radius: 10px;
+        height: 169px;
     }
 }
