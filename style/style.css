@@ -13,6 +13,7 @@ body {
     margin-top: 11%;
     border-radius: 15px;
     border: solid;
+    border-width: 1px;
     box-shadow: 10px 10px;
 }
 
@@ -68,12 +69,14 @@ h1 a:hover {
 .name img{
     height: 32px;
     width: 32px;
+    margin-right: 10px;
 }
 
 .name p {
     font-size: 14px;
     font-weight: bold;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
 footer {
